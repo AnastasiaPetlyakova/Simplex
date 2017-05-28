@@ -1,0 +1,4 @@
+language: cpp
+script:
+- cmake -H. -B_builds
+- cmake --build _builds
